@@ -19,7 +19,6 @@ This project investigates mobile banking adoption patterns across **Pakistan**, 
 |------|-------------|
 | `Synthetic_Mobile_Banking_Data.csv` | Cleaned and labeled dataset with 1,200 individuals |
 | `Mobile_Banking_Coursework2.ipynb` | Full Colab notebook (preprocessing, models, evaluation, plots) |
-| `Report_Final.docx` | Final academic report including literature review, insights, and conclusion |
 | `README.md` | This file |
 
 ---
@@ -38,9 +37,25 @@ This project investigates mobile banking adoption patterns across **Pakistan**, 
 
 - **Evaluation Metrics**:
   - Accuracy, Precision, Recall, F1-Score
+ 
+  | Model               | Accuracy | Precision | Recall | F1 Score |
+  |---------------------|----------|-----------|--------|----------|
+  | Logistic Regression | 0.76     | 0.66      | **0.84** | 0.74   |
+  | Random Forest       | **0.76** | 0.71      | 0.69   | 0.70     |
+  | XGBoost             | 0.75     | **0.71**  | 0.66   | 0.68     | 
+
   - Confusion Matrix
+  <img width="539" height="455" alt="download (16)" src="https://github.com/user-attachments/assets/1542e81b-6121-4c7b-a81e-a02ca5c3695e" />
+  <img width="539" height="455" alt="download (17)" src="https://github.com/user-attachments/assets/dbc99a29-578f-4bc1-ac9b-e2cbcb010cba" />
+  <img width="539" height="455" alt="download (18)" src="https://github.com/user-attachments/assets/a677c6e3-e30e-49c7-9cba-6dd63c8a0d20" />
+
   - ROC-AUC Curve
+  <img width="547" height="435" alt="download (19)" src="https://github.com/user-attachments/assets/5115cdb1-3dce-454a-8800-4936293404f7" />
+  
   - Feature Importance (XGBoost)
+  <img width="684" height="435" alt="download (20)" src="https://github.com/user-attachments/assets/63964823-af92-4ae7-a6ad-51699c9685f4" />
+
+
 
 ---
 
